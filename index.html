@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="./style.css">
   <title>Weather Dashboard</title>
 </head>
 <body>
@@ -15,10 +16,55 @@
       <input type="text" id="cityInput" placeholder="Enter city name" required>
       <button type="submit">Search</button>
     </form>
-    <div id="currentWeather"></div>
-    <div id="forecast"></div>
-    <div id="searchHistory"></div>
+    <div id="currentWeather">
+        <h2 id="cityName"></h2>
+        <p id="currentDate"></p>
+        <p id="currentTemp"></p>
+        <p id="currentHumidity"></p>
+        <p id="currentWindSpeed"></p>
+        <p id="currentUVIndex"></p>
+    </div>
+    <div id="forecast">
+        <h2>5-Day Forecast:</h2>
+        <div id="forecastCards">
+            <div class="forecastCard">
+                <p class="forecastDate"></p>
+                <p class="forecastTemp"></p>
+                <p class="forecastHumidity"></p>
+            </div>
+            <div class="forecastCard">
+                <p class="forecastDate"></p>
+                <p class="forecastTemp"></p>
+                <p class="forecastHumidity"></p>
+            </div>
+            <div class="forecastCard">
+                <p class="forecastDate"></p>
+                <p class="forecastTemp"></p>
+                <p class="forecastHumidity"></p>
+            </div>
+            <div class="forecastCard">
+                <p class="forecastDate"></p>
+                <p class="forecastTemp"></p>
+                <p class="forecastHumidity"></p>
+            </div>
+            <div class="forecastCard">
+                <p class="forecastDate"></p>
+                <p class="forecastTemp"></p>
+                <p class="forecastHumidity"></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="searchHistory">
+        <h2>Search History:</h2>
+        <div id="searchHistoryList">
+            <button class="searchHistoryItem" type="submit">City Name</button>
+        </div>
+        <div id="clearHistory">
+            <button class="clearHistory" type="submit"> Clear History</button>
+        </div>
+    </div>
   </div>
-  <script src="script.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>
