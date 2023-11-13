@@ -20,3 +20,10 @@ THEN I am presented with a 5-day forecast that displays the date, an icon repres
 WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 ```
+## Screenshot
+![Screenshot of Server-Side-API-Weather-Dashboard](./assets/images/127.0.0.1_5500_Server-Side-API-Weather-Dashboard_index.html_.png)
+
+## Links
+
+* Repo: https://github.com/GDonna/Server-Side-API-Weather-Dashboard.git
+* Deployed: 
