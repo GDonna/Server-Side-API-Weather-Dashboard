@@ -1,5 +1,11 @@
 # Server-Side-API-Weather-Dashboard
-NU Bootcamp Challenge 6
+
+This is my submission for Challenge 6- Weather Dashboard.
+
+## Tech Used:
+
+* OpenWeather API: https://openweathermap.org/forecast5
+
 
 ## User Story
 ```
@@ -26,4 +32,4 @@ THEN I am again presented with current and future conditions for that city
 ## Links
 
 * Repo: https://github.com/GDonna/Server-Side-API-Weather-Dashboard.git
-* Deployed: 
+* Deployed: https://gdonna.github.io/Server-Side-API-Weather-Dashboard/
